@@ -221,6 +221,7 @@ header nav .nav-button a span {
 }
 .third-section .third-content .third-content-text {
   width: 530px;
+  margin-right: 25px;
 }
 .third-section .third-content .third-content-text img {
   margin-left: 5px;
@@ -275,4 +276,58 @@ header nav .nav-button a span {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.third-section .third-content .third-content-cards {
+  margin-left: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.third-section .third-content .third-content-cards .card-custom {
+  width: 263px;
+  height: 168px;
+  background-color: #F8F8F8;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+.third-section .third-content .third-content-cards .card-custom:nth-child(3), .third-section .third-content .third-content-cards .card-custom:nth-child(4) {
+  margin: 0;
+}
+.third-section .third-content .third-content-cards .card-custom img {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.third-section .third-content .third-content-cards .card-custom img:nth-child(1) {
+  width: 38px;
+  height: 38px;
+  top: -23px;
+  z-index: 2;
+}
+.third-section .third-content .third-content-cards .card-custom p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.third-section .third-content .third-content-cards .card-custom p:nth-child(4) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #696969;
 }/*# sourceMappingURL=main.css.map */
