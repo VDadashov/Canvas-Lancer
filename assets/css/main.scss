@@ -6,6 +6,28 @@
     box-sizing: border-box;
 }
 
+@mixin button{
+    width: 161px;
+    height: 40px;
+    text-decoration: none;
+    background: #FF3839;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    margin-top: 36px;
+
+    span {
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+}
+
 .container {
     max-width: 1173px !important;
     margin: auto;
@@ -68,7 +90,7 @@ header {
     background-image: url(../img/graphic-designers-meeting.png);
     background-color: #202020;
     width: 100%;
-    // height: calc(100vh - 95px);
+    height: calc(100vh - 95px);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -116,70 +138,98 @@ header {
             display: flex;
             gap: 20px;
 
-            a {
-                width: 161px;
-                height: 40px;
-                text-decoration: none;
-                background: #FF3839;
-                border-radius: 5px;
-                display: grid;
-                place-items: center;
-                margin-top: 36px;
+            a{
+                &:nth-child(2){
+                    background-color: #fff;
 
-                span {
-                    color: #FFFFFF;
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 24px;
-                    text-align: center;
-                    letter-spacing: 0.03em;
-                }
-
-                &:nth-child(2) {
-                    background: #FFFFFF;
-
-                    span {
-                        font-family: 'Poppins';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 24px;
-                        text-align: center;
-                        letter-spacing: 0.03em;
+                    span{
                         color: #202020;
                     }
                 }
+
+                @include button()
             }
         }
     }
 }
 
-.second-section{
+.second-section {
     height: 100vh;
     background-color: #fff;
-    padding: 112px 0 52px ;
-    .second-content{
-        .box-img{
+    display: grid;
+    place-content: center;
+    .second-content {
+        display: flex;
+        .box-img {
             position: relative;
             width: 590px;
             height: 505px;
 
-            img{
+            img {
                 position: absolute;
 
-                &:nth-child(2){
+                &:nth-child(2) {
                     bottom: 0;
                     right: 50px;
                 }
             }
-
-
         }
 
-        .box-text{
-            
+        .box-text {
+            width: 535px;
+            margin-left: 30px;
+            .text-one {
+                img {
+                    width: 143px;
+                    height: 1px;
+                }
+
+                span {
+                    margin-bottom: 0;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 155%;
+                    letter-spacing: 0.03em;
+                    color: #FF3839;
+
+                    &:nth-child(1) {
+                        color: #696969;
+                    }
+                }
+            }
+
+            p {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 125.5%;
+                letter-spacing: 0.03em;
+                color: #000000;
+
+                span {
+                    color: #FF3839;
+                }
+
+                &:nth-child(3) , &:nth-child(4) {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 155%;
+                    text-align: justify;
+                    letter-spacing: 0.03em;
+                    color: #696969;
+                }
+            }
+
+            a{
+                color: #fff;
+                @include button()
+                
+            }
         }
     }
 }
