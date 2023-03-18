@@ -211,4 +211,64 @@ header nav .nav-button a span {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.third-section {
+  height: 100vh;
+  background-color: #202020;
+}
+.third-section .third-content .third-content-text {
+  width: 530px;
+}
+.third-section .third-content .third-content-text img {
+  margin-left: 5px;
+}
+.third-section .third-content .third-content-text span {
+  margin-left: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #F8F8F8;
+}
+.third-section .third-content .third-content-text span:nth-child(1) {
+  color: #FF3839;
+  margin-left: 0;
+}
+.third-section .third-content .third-content-text p {
+  font: normal 700 48px/125.5% "Poppins";
+  letter-spacing: 0.03em;
+  color: #F8F8F8;
+}
+.third-section .third-content .third-content-text p span {
+  font: normal 700 48px/125.5% "Poppins";
+  color: #FF3839;
+}
+.third-section .third-content .third-content-text .third-content-main-text {
+  font: normal 400 16px/155% "Poppins" !important;
+  text-align: justify;
+}
+.third-section .third-content .third-content-text a {
+  color: #F8F8F8;
+  width: 161px;
+  height: 40px;
+  text-decoration: none;
+  background: #FF3839;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  margin-top: 36px;
+}
+.third-section .third-content .third-content-text a span {
+  color: #FFFFFF;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }/*# sourceMappingURL=main.css.map */

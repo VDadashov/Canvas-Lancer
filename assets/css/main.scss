@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-@mixin button{
+@mixin button {
     width: 161px;
     height: 40px;
     text-decoration: none;
@@ -138,11 +138,11 @@ header {
             display: flex;
             gap: 20px;
 
-            a{
-                &:nth-child(2){
+            a {
+                &:nth-child(2) {
                     background-color: #fff;
 
-                    span{
+                    span {
                         color: #202020;
                     }
                 }
@@ -158,8 +158,10 @@ header {
     background-color: #fff;
     display: grid;
     place-content: center;
+
     .second-content {
         display: flex;
+
         .box-img {
             position: relative;
             width: 590px;
@@ -178,6 +180,7 @@ header {
         .box-text {
             width: 535px;
             margin-left: 30px;
+
             .text-one {
                 img {
                     width: 143px;
@@ -213,7 +216,8 @@ header {
                     color: #FF3839;
                 }
 
-                &:nth-child(3) , &:nth-child(4) {
+                &:nth-child(3),
+                &:nth-child(4) {
                     font-family: 'Poppins';
                     font-style: normal;
                     font-weight: 400;
@@ -225,11 +229,64 @@ header {
                 }
             }
 
-            a{
+            a {
                 color: #fff;
                 @include button()
-                
             }
+        }
+    }
+}
+
+.third-section {
+    height: 100vh;
+    background-color: #202020;
+
+    .third-content {
+
+        .third-content-text {
+            width: 530px;
+            
+            img {
+                margin-left: 5px;
+            }
+
+            span {
+                margin-left: 5px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 155%;
+                text-align: justify;
+                letter-spacing: 0.03em;
+                color: #F8F8F8;
+
+                &:nth-child(1) {
+                    color: #FF3839;
+                    margin-left: 0;
+                }
+            }
+
+            p {
+                font: normal 700 48px/125.5% 'Poppins';
+                letter-spacing: 0.03em;
+                color: #F8F8F8;
+                span {
+                    font: normal 700 48px/125.5% 'Poppins';
+                    color: #FF3839;
+                }
+            }
+
+            .third-content-main-text{
+                font:normal 400 16px/155% 'Poppins' !important;
+                text-align: justify;
+            }
+
+            a{
+                color: #F8F8F8;
+                @include button()
+            }
+
         }
     }
 }
