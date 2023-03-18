@@ -68,7 +68,7 @@ header {
     background-image: url(../img/graphic-designers-meeting.png);
     background-color: #202020;
     width: 100%;
-    height: calc(100vh - 95px);
+    // height: calc(100vh - 95px);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -176,6 +176,10 @@ header {
             }
 
 
+        }
+
+        .box-text{
+            
         }
     }
 }
