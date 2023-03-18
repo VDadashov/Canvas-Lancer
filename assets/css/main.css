@@ -216,6 +216,8 @@ header nav .nav-button a span {
 .third-section {
   height: 100vh;
   background-color: #202020;
+  display: grid;
+  place-content: center;
 }
 .third-section .third-content .third-content-text {
   width: 530px;
@@ -239,6 +241,7 @@ header nav .nav-button a span {
   margin-left: 0;
 }
 .third-section .third-content .third-content-text p {
+  margin: 10px 0;
   font: normal 700 48px/125.5% "Poppins";
   letter-spacing: 0.03em;
   color: #F8F8F8;
@@ -248,6 +251,7 @@ header nav .nav-button a span {
   color: #FF3839;
 }
 .third-section .third-content .third-content-text .third-content-main-text {
+  margin: 25px 0;
   font: normal 400 16px/155% "Poppins" !important;
   text-align: justify;
 }

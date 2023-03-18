@@ -240,12 +240,13 @@ header {
 .third-section {
     height: 100vh;
     background-color: #202020;
+    display: grid;
+    place-content: center;
 
     .third-content {
 
         .third-content-text {
             width: 530px;
-            
             img {
                 margin-left: 5px;
             }
@@ -268,6 +269,7 @@ header {
             }
 
             p {
+                margin: 10px 0;
                 font: normal 700 48px/125.5% 'Poppins';
                 letter-spacing: 0.03em;
                 color: #F8F8F8;
@@ -278,6 +280,7 @@ header {
             }
 
             .third-content-main-text{
+                margin: 25px 0;
                 font:normal 400 16px/155% 'Poppins' !important;
                 text-align: justify;
             }
