@@ -35,8 +35,9 @@ header nav .nav-menu ul li a {
   color: #FFFFFF;
 }
 header nav .nav-button a {
-  display: grid;
-  place-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 128px;
   height: 44px;
   background: #FF3839;
@@ -218,6 +219,10 @@ header nav .nav-button a span {
   background-color: #202020;
   display: grid;
   place-content: center;
+}
+.third-section .third-content {
+  display: flex;
+  justify-content: space-between;
 }
 .third-section .third-content .third-content-text {
   width: 530px;

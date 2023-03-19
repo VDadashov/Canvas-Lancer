@@ -1,0 +1,141 @@
+@media (max-width:992px) {
+    .container{
+        max-width: 756px !important;
+        margin: auto;
+    }
+
+    header{
+        .nav-logo{
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-menu{
+            .bars{
+                color: aliceblue;
+                font-size: 28px;
+            }
+        }
+
+        .nav-button{
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    .second-section{
+        height: auto;
+
+        .second-content{
+            margin:60px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center ;
+            gap: 40px;
+            .box-img{
+                width: 450px;
+                height: 400px;
+                img{
+                    width: 300px;
+                    height: 330px;
+
+                    &:nth-child(2){
+                        width: 250px;
+                        height: 270px;
+                    }
+                }
+            }
+
+            .box-text{
+                margin-left: 0px;
+            }  
+        }
+    }
+
+    .third-section{
+        height: auto;
+
+        .third-content{
+            margin: 60px 0;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+
+            .third-content-text{
+                margin: 0;
+                margin-bottom: 30px;
+                margin-right: 25px;
+            }
+
+            .third-content-cards{
+                margin: 0;
+                margin-top: 30px;
+                margin-right: 25px;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 610px !important;
+    }
+
+    .first-section{
+        .first-content{
+            width: 565px;
+            height: auto;
+
+            p{
+                &:nth-child(2){
+                    font-size: 50px;
+                }
+            }
+
+            img{
+                width: 390px;
+            }
+
+            .first-section-button{
+                a{
+                    margin-top: 21px;
+                }
+            }
+        }
+    }
+
+    .second-section{
+
+        .second-content{
+            .box-img{
+                width: 430px;
+                height: 370px;
+                img{
+                    width: 270px;
+                    height: 300px;
+
+                    &:nth-child(2){
+                        width: 230px;
+                        height: 240px;
+                    }
+                }
+            }
+
+            .box-text{
+                .text-one{
+                    span{
+                        font-size: 14px;
+                    }
+                }
+                p{
+                    font-size: 44px;
+
+                    &:nth-child(3),&:nth-child(4){
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

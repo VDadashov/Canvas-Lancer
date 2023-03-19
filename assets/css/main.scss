@@ -64,8 +64,11 @@ header {
 
         .nav-button {
             a {
-                display: grid;
-                place-content: center; // perfect center le eyni funksiyani gorur
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // display: grid;
+                // place-content: center; // perfect center le eyni funksiyani gorur
                 width: 128px;
                 height: 44px;
                 background: #FF3839;
@@ -244,11 +247,11 @@ header {
     place-content: center;
 
     .third-content {
-
+        display: flex;
+        justify-content: space-between;
         .third-content-text {
             width: 530px;
             margin-right: 25px;
-
             img {
                 margin-left: 5px;
             }
