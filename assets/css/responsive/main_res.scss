@@ -139,3 +139,58 @@
         }
     }
 }
+
+@media (max-width:576px){
+    .container{
+        max-width: 440px !important;
+    }
+
+    header{
+        .nav-logo{
+            img{
+                width: 150px;
+            }
+        }
+
+        .nav-button{
+            a{
+                span{
+                    font-size: 11px !important;
+                }
+            }
+        }
+    }
+
+    .first-section{
+        height: auto;
+        padding: 40px 0;
+        .first-content{
+            width: 366px;
+
+            p{
+                &:nth-child(2){
+                    font-size: 30px;
+                }
+
+                &:nth-child(4){
+                    font-size: 12px;
+                }
+            }
+
+            img{
+                width: 240px;
+            }
+
+            .first-section-button{
+                a{
+                    width: 125px;
+                    height: 35px;
+
+                    span{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

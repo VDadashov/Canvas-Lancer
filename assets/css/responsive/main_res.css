@@ -99,4 +99,38 @@
   .second-section .second-content .box-text p:nth-child(3), .second-section .second-content .box-text p:nth-child(4) {
     font-size: 14px;
   }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 440px !important;
+  }
+  header .nav-logo img {
+    width: 150px;
+  }
+  header .nav-button a span {
+    font-size: 11px !important;
+  }
+  .first-section {
+    height: auto;
+    padding: 40px 0;
+  }
+  .first-section .first-content {
+    width: 366px;
+  }
+  .first-section .first-content p:nth-child(2) {
+    font-size: 30px;
+  }
+  .first-section .first-content p:nth-child(4) {
+    font-size: 12px;
+  }
+  .first-section .first-content img {
+    width: 240px;
+  }
+  .first-section .first-content .first-section-button a {
+    width: 125px;
+    height: 35px;
+  }
+  .first-section .first-content .first-section-button a span {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=main_res.css.map */
