@@ -63,6 +63,8 @@ header {
         }
 
         .nav-button {
+            display: flex;
+            justify-content: flex-end;
             a {
                 display: flex;
                 justify-content: center;

@@ -34,6 +34,10 @@ header nav .nav-menu ul li a {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
+header nav .nav-button {
+  display: flex;
+  justify-content: flex-end;
+}
 header nav .nav-button a {
   display: flex;
   justify-content: center;
