@@ -199,7 +199,7 @@
   }
   .third-section .third-content .third-content-text {
     width: 320px !important;
-    margin-right: 0;
+    margin-right: 10px;
   }
   .third-section .third-content .third-content-text img {
     width: 125px;
