@@ -48,6 +48,10 @@
 
             .box-text{
                 margin-left: 0px;
+
+                p{
+                    margin-top: 10px;
+                }
             }  
         }
     }
@@ -109,15 +113,16 @@
 
         .second-content{
             .box-img{
-                width: 430px;
+                width: 395px;
                 height: 370px;
                 img{
-                    width: 270px;
+                    width: 280px;
                     height: 300px;
 
                     &:nth-child(2){
-                        width: 230px;
+                        width: 235px;
                         height: 240px;
+                        right: 0;
                     }
                 }
             }
@@ -143,6 +148,29 @@
 @media (max-width:576px){
     .container{
         max-width: 440px !important;
+    }
+
+    @mixin button {
+        width: 125px;
+        height: 35px;
+        text-decoration: none;
+        background: #FF3839;
+        border-radius: 5px;
+        display: grid;
+        place-items: center;
+        margin-top: 20px;
+    
+        span {
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.03em;
+        }
+
     }
 
     header{
@@ -189,6 +217,53 @@
                     span{
                         font-size: 12px;
                     }
+                }
+            }
+        }
+    }
+
+    .second-section{
+        .second-content{
+            margin: 40px 0;
+            .box-img{
+                width: 300px;
+                height: 287px;
+
+                img{
+                    width: 215px;
+                    height: 220px;
+
+                    &:nth-child(2){
+                        width: 180px;
+                        height: 190px;
+                        right: 0;
+                    }
+                }
+            }
+
+            .box-text{
+                width: 330px;
+
+                .text-one{
+                    img{
+                        width: 128px;
+                        margin-right: 5px;
+                    }
+                    span{
+                        font-size: 12px;
+                    }
+                }
+
+                p{
+                    font-size: 30px;
+
+                    &:nth-child(3),&:nth-child(4){
+                        font-size: 12px;
+                    }
+                }
+
+                a{
+                    @include button()
                 }
             }
         }
