@@ -263,7 +263,7 @@ header nav .nav-button a span {
 }
 .third-section .third-content .third-content-text .third-content-main-text {
   margin: 25px 0;
-  font: normal 400 16px/155% "Poppins" !important;
+  font: normal 400 16px/155% "Poppins";
   text-align: justify;
 }
 .third-section .third-content .third-content-text a {
@@ -296,6 +296,7 @@ header nav .nav-button a span {
 .third-section .third-content .third-content-cards .card-custom {
   width: 263px;
   height: 168px;
+  border-radius: 10px;
   background-color: #F8F8F8;
   position: relative;
   display: flex;

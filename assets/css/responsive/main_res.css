@@ -174,23 +174,72 @@
     font-size: 12px;
   }
   .second-section .second-content .box-text a {
-    width: 125px;
-    height: 35px;
+    width: 125px !important;
+    height: 35px !important;
     text-decoration: none;
     background: #FF3839;
     border-radius: 5px;
     display: grid;
     place-items: center;
-    margin-top: 20px;
+    margin-top: 20px !important;
   }
   .second-section .second-content .box-text a span {
     color: #FFFFFF;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 12px !important;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
+  }
+  .third-section .third-content {
+    margin: 40px 0;
+  }
+  .third-section .third-content .third-content-text {
+    width: 340px !important;
+  }
+  .third-section .third-content .third-content-text img {
+    width: 125px;
+  }
+  .third-section .third-content .third-content-text span {
+    font-size: 12px !important;
+  }
+  .third-section .third-content .third-content-text p {
+    font-size: 30px !important;
+  }
+  .third-section .third-content .third-content-text p span {
+    font-size: 30px !important;
+  }
+  .third-section .third-content .third-content-text .third-content-main-text {
+    font-size: 12px !important;
+    margin: 10px 0 !important;
+  }
+  .third-section .third-content .third-content-text a {
+    width: 125px !important;
+    height: 35px !important;
+    text-decoration: none;
+    background: #FF3839;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    margin-top: 20px !important;
+  }
+  .third-section .third-content .third-content-text a span {
+    color: #FFFFFF;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  .third-section .third-content .third-content-cards .card-custom {
+    margin-top: 10px !important;
+    margin-bottom: 35px !important;
+  }
+  .third-section .third-content .third-content-cards .card-custom:last-child {
+    margin-bottom: 0 !important;
   }
 }/*# sourceMappingURL=main_res.css.map */

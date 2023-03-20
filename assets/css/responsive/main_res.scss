@@ -151,21 +151,21 @@
     }
 
     @mixin button {
-        width: 125px;
-        height: 35px;
+        width: 125px !important;
+        height: 35px !important;
         text-decoration: none;
         background: #FF3839;
         border-radius: 5px;
         display: grid;
         place-items: center;
-        margin-top: 20px;
+        margin-top: 20px !important;
     
         span {
             color: #FFFFFF;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
-            font-size: 12px;
+            font-size: 12px !important;
             line-height: 24px;
             text-align: center;
             letter-spacing: 0.03em;
@@ -227,6 +227,7 @@
     .second-section{
         .second-content{
             margin: 40px 0;
+
             .box-img{
                 width: 300px;
                 height: 287px;
@@ -266,6 +267,52 @@
 
                 a{
                     @include button()
+                }
+            }
+        }
+    }
+
+    .third-section{
+        .third-content{
+            margin: 40px 0;
+
+            .third-content-text{
+                width: 340px !important;
+
+                img{
+                    width: 125px;
+                }
+    
+                span{
+                    font-size: 12px !important;
+                }
+    
+                p{
+                    font-size: 30px !important;
+    
+                    span{
+                        font-size: 30px !important;
+                    }
+                }
+    
+                .third-content-main-text{
+                    font-size: 12px !important;
+                    margin: 10px 0 !important;
+                }
+    
+                a{
+                    @include button()
+                }
+            }
+
+            .third-content-cards{
+                .card-custom{
+                    margin-top: 10px !important;
+                    margin-bottom: 35px !important;
+
+                    &:last-child{
+                        margin-bottom: 0 !important;
+                    }
                 }
             }
         }
