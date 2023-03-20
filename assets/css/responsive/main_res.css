@@ -111,6 +111,10 @@
   header .nav-logo img {
     width: 150px;
   }
+  header .nav-button a {
+    width: 125px !important;
+    height: 35px !important;
+  }
   header .nav-button a span {
     font-size: 11px !important;
   }
