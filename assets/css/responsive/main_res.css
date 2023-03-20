@@ -143,6 +143,7 @@
   }
   .second-section .second-content {
     margin: 40px 0;
+    width: 300px;
   }
   .second-section .second-content .box-img {
     width: 300px;
@@ -168,7 +169,7 @@
     font-size: 12px;
   }
   .second-section .second-content .box-text p {
-    font-size: 30px;
+    font-size: 27px;
   }
   .second-section .second-content .box-text p:nth-child(3), .second-section .second-content .box-text p:nth-child(4) {
     font-size: 12px;
@@ -197,7 +198,8 @@
     margin: 40px 0;
   }
   .third-section .third-content .third-content-text {
-    width: 340px !important;
+    width: 320px !important;
+    margin-right: 0;
   }
   .third-section .third-content .third-content-text img {
     width: 125px;
@@ -209,7 +211,7 @@
     font-size: 30px !important;
   }
   .third-section .third-content .third-content-text p span {
-    font-size: 30px !important;
+    font-size: 27px !important;
   }
   .third-section .third-content .third-content-text .third-content-main-text {
     font-size: 12px !important;
@@ -234,6 +236,9 @@
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
+  }
+  .third-section .third-content .third-content-cards {
+    margin-right: 0;
   }
   .third-section .third-content .third-content-cards .card-custom {
     margin-top: 10px !important;

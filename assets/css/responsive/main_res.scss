@@ -227,7 +227,7 @@
     .second-section{
         .second-content{
             margin: 40px 0;
-
+            width: 300px;
             .box-img{
                 width: 300px;
                 height: 287px;
@@ -258,7 +258,7 @@
                 }
 
                 p{
-                    font-size: 30px;
+                    font-size: 27px;
 
                     &:nth-child(3),&:nth-child(4){
                         font-size: 12px;
@@ -277,8 +277,8 @@
             margin: 40px 0;
 
             .third-content-text{
-                width: 340px !important;
-
+                width: 320px !important;
+                margin-right: 0;
                 img{
                     width: 125px;
                 }
@@ -291,7 +291,7 @@
                     font-size: 30px !important;
     
                     span{
-                        font-size: 30px !important;
+                        font-size: 27px !important;
                     }
                 }
     
@@ -306,6 +306,7 @@
             }
 
             .third-content-cards{
+                margin-right: 0;
                 .card-custom{
                     margin-top: 10px !important;
                     margin-bottom: 35px !important;
