@@ -65,6 +65,7 @@ header {
         .nav-button {
             display: flex;
             justify-content: flex-end;
+
             a {
                 display: flex;
                 justify-content: center;
@@ -173,6 +174,7 @@ header {
             img {
                 position: absolute;
                 border-radius: 10px;
+
                 &:nth-child(2) {
                     bottom: 0;
                     right: 50px;
@@ -249,9 +251,11 @@ header {
     .third-content {
         display: flex;
         justify-content: space-between;
+
         .third-content-text {
             width: 530px;
             margin-right: 25px;
+
             img {
                 margin-left: 5px;
             }
@@ -268,7 +272,6 @@ header {
                 color: #F8F8F8;
 
                 &:nth-child(1) {
-                    color: #FF3839;
                     margin-left: 0;
                 }
             }
@@ -292,7 +295,6 @@ header {
             }
 
             a {
-                color: #F8F8F8;
                 @include button()
             }
 
@@ -316,12 +318,13 @@ header {
                 margin-top: 15px;
                 margin-bottom: 35px;
 
-                &:nth-child(3),&:nth-child(4){
+                &:nth-child(3),
+                &:nth-child(4) {
                     margin: 0;
                 }
 
-                
-                img{
+
+                img {
                     width: 75px;
                     height: 75px;
                     position: absolute;
@@ -329,7 +332,7 @@ header {
                     left: 50%;
                     transform: translate(-50%);
 
-                    &:nth-child(1){
+                    &:nth-child(1) {
                         width: 38px;
                         height: 38px;
                         top: -23px;
@@ -357,6 +360,96 @@ header {
                         letter-spacing: 0.03em;
                         color: #696969;
                     }
+                }
+            }
+        }
+    }
+}
+
+.fourth-section {
+    padding: 80px 0;
+    display: grid;
+    place-content: center;
+
+    .fourth-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+
+        .part1 {
+            span {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 155%;
+                text-align: justify;
+                letter-spacing: 0.03em;
+                color: #696969;
+                margin: 0 7px;
+            }
+        }
+
+        .part2 {
+            width: 450px;
+
+            p {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 125.5%;
+                text-align: center;
+                letter-spacing: 0.03em;
+                color: #000000;
+
+                span {
+                    color: #FF3839;
+                }
+            }
+        }
+
+        .part3 {
+            margin-bottom: 25px;
+
+            .part3-button {
+                padding: 10px 25px;
+                background: #F2F2F2;
+                
+                span {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.03em;
+                    color: #000000;
+                }
+
+                &:hover{
+                    background: #FF3839;
+                    transition: all 0.3s;
+                    span{
+                        color: #F2F2F2;
+                    }
+                }
+
+                &:focus
+                {
+                    background: #FF3839;
+                    transition: all 0.3s;
+                    span{
+                        color: #F2F2F2;
+                    }
+                }
+            }
+
+            .active-button {
+                background: #FF3839;
+
+                span {
+                    color: #F8F8F8;
                 }
             }
         }
