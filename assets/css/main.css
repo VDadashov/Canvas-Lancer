@@ -43,11 +43,21 @@ header nav .nav-button a {
   background: #FF3839;
   border-radius: 5px;
   text-decoration: none;
+  transition: all 0.5s;
 }
 header nav .nav-button a span {
   font: normal 400 14px/24px "Poppins";
   letter-spacing: 0.03em;
   color: #FFFFFF;
+  transition: all 0.5s;
+}
+header nav .nav-button a:hover {
+  background-color: #FFFFFF;
+  transition: all 0.5s;
+}
+header nav .nav-button a:hover span {
+  color: #FF3839;
+  transition: all 0.5s;
 }
 
 .first-section {
@@ -102,6 +112,7 @@ header nav .nav-button a span {
   display: grid;
   place-items: center;
   margin-top: 36px;
+  transition: all 0.5s;
 }
 .first-section .first-content .first-section-button a:nth-child(2) {
   background-color: #fff;
@@ -118,6 +129,11 @@ header nav .nav-button a span {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+  transition: all 0.5s;
+}
+.first-section .first-content .first-section-button a:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
 }
 
 .second-section {
@@ -184,6 +200,7 @@ header nav .nav-button a span {
   display: grid;
   place-items: center;
   margin-top: 36px;
+  transition: all 0.5s;
 }
 .second-section .second-content .box-text a span {
   color: #FFFFFF;
@@ -194,6 +211,11 @@ header nav .nav-button a span {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+  transition: all 0.5s;
+}
+.second-section .second-content .box-text a:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
 }
 
 .third-section {
@@ -247,6 +269,7 @@ header nav .nav-button a span {
   display: grid;
   place-items: center;
   margin-top: 36px;
+  transition: all 0.5s;
 }
 .third-section .third-content .third-content-text a span {
   color: #FFFFFF;
@@ -257,6 +280,11 @@ header nav .nav-button a span {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+  transition: all 0.5s;
+}
+.third-section .third-content .third-content-text a:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
 }
 .third-section .third-content .third-content-cards {
   margin-left: 25px;
