@@ -50,11 +50,7 @@ header {
 
                     a {
                         text-decoration: none;
-                        font-family: 'Poppins';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 14px;
-                        line-height: 24px;
+                        font: normal 400 14px/24px 'Poppins';
                         letter-spacing: 0.03em;
                         color: #FFFFFF;
                     }
@@ -77,11 +73,7 @@ header {
                 text-decoration: none;
 
                 span {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 24px;
+                    font: normal 400 14px/24px 'Poppins';
                     letter-spacing: 0.03em;
                     color: #FFFFFF;
                 }
@@ -109,11 +101,7 @@ header {
         align-items: center;
 
         p {
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 24px;
+            font: normal 400 14px/24px 'Poppins';
             letter-spacing: 0.03em;
             color: #FFFFFF;
             text-align: center;
@@ -127,7 +115,6 @@ header {
                 font-size: 64px;
                 line-height: 128.5%;
                 letter-spacing: 0.03em;
-                // text-align: center;
             }
         }
 
@@ -190,15 +177,12 @@ header {
                 img {
                     width: 143px;
                     height: 1px;
+                    margin-right: 5px;
                 }
 
                 span {
                     margin-bottom: 0;
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 16px;
-                    line-height: 155%;
+                    font: normal bold 16px/155% 'Poppins';
                     letter-spacing: 0.03em;
                     color: #FF3839;
 
@@ -209,11 +193,7 @@ header {
             }
 
             p {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 48px;
-                line-height: 125.5%;
+                font: normal bold 48px/125.5% 'Poppins';
                 letter-spacing: 0.03em;
                 color: #000000;
 
@@ -223,11 +203,7 @@ header {
 
                 &:nth-child(3),
                 &:nth-child(4) {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 155%;
+                    font: normal 400 16px/155% 'Poppins';
                     text-align: justify;
                     letter-spacing: 0.03em;
                     color: #696969;
@@ -262,11 +238,7 @@ header {
 
             span {
                 margin-left: 5px;
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 155%;
+                font: normal bold 14px/155% 'Poppins';
                 text-align: justify;
                 letter-spacing: 0.03em;
                 color: #F8F8F8;
@@ -341,21 +313,13 @@ header {
                 }
 
                 p {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 16px;
-                    line-height: 24px;
+                    font: normal bold 16px/24px 'Poppins';
                     text-align: center;
                     letter-spacing: 0.03em;
                     color: #000000;
 
                     &:nth-child(4) {
-                        font-family: 'Poppins';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 11px;
-                        line-height: 155%;
+                        font: normal 400 11px/155% 'Poppins';
                         text-align: center;
                         letter-spacing: 0.03em;
                         color: #696969;
@@ -379,11 +343,7 @@ header {
 
         .part1 {
             span {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 155%;
+                font: normal 400 16px/155% 'Poppins';
                 text-align: justify;
                 letter-spacing: 0.03em;
                 color: #696969;
@@ -395,11 +355,7 @@ header {
             width: 450px;
 
             p {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 44px;
-                line-height: 125.5%;
+                font: normal bold 44px/125.5% 'Poppins';
                 text-align: center;
                 letter-spacing: 0.03em;
                 color: #000000;
@@ -418,11 +374,7 @@ header {
                 background: #F2F2F2;
 
                 span {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 24px;
+                    font: normal 400 16px/24px 'Poppins';
                     letter-spacing: 0.03em;
                     color: #000000;
                 }
@@ -479,11 +431,7 @@ header {
                 p {
                     display: inline-block;
                     margin: 0 0 0 10px;
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16px;
-                    line-height: 155%;
+                    font: normal 600 16px/155% 'Poppins';
                     text-align: justify;
                     letter-spacing: 0.03em;
                     color: #F7F7F7;
@@ -524,11 +472,7 @@ header {
             margin-top: 32px;
 
             p {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 48px;
-                line-height: 125.5%;
+                font: normal 700 48px/125.5% 'Poppins';
                 letter-spacing: 0.03em;
                 color: #FFFFFF;
 
@@ -569,11 +513,7 @@ header {
                     p {
                         margin: 0;
                         margin-bottom: 11px;
-                        font-family: 'Poppins';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 16px;
-                        line-height: 24px;
+                        font: normal bold 16px/24px 'Poppins';
                         text-align: center;
                         letter-spacing: 0.03em;
                         color: #000000;
@@ -581,11 +521,7 @@ header {
                         &:last-child {
                             margin: 0;
                             margin-top: 7px;
-                            font-family: 'Poppins';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 11px;
-                            line-height: 155%;
+                            font: normal 400 11px/155% 'Poppins';
                             text-align: center;
                             letter-spacing: 0.03em;
                             color: #696969;
@@ -623,11 +559,7 @@ header {
             }
 
             span {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 155%;
+                font: normal 400 16px/155% 'Poppins';
                 letter-spacing: 0.03em;
                 color: #696969;
             }
@@ -637,11 +569,7 @@ header {
             margin-bottom: 45px;
 
             p {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 45px;
-                line-height: 125.5%;
+                font: normal 700 45px/125.5% 'Poppins';
                 text-align: center;
                 letter-spacing: 0.03em;
                 color: #202020;
@@ -668,11 +596,7 @@ header {
                 border-style: none;
 
                 p {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 24px;
+                    font: normal 400 16px/24px 'Poppins';
                     letter-spacing: 0.03em;
                     color: #333335;
                     margin: 0;
@@ -709,11 +633,7 @@ header {
 
                 p {
                     width: 940px;
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 24px;
+                    font: normal 400 16px/24px 'Poppins';
                     letter-spacing: 0.03em;
                     text-align: center;
                     color: #696969;
@@ -748,11 +668,7 @@ header {
                 }
 
                 span {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 16px;
-                    line-height: 155%;
+                    font: normal 16px/155% 'Poppins';
                     text-align: justify;
                     letter-spacing: 0.03em;
                     color: #FF3839;
@@ -760,11 +676,7 @@ header {
             }
 
             p {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 48px;
-                line-height: 125.5%;
+                font: normal 700 48px/125.5% 'Poppins';
                 letter-spacing: 0.03em;
                 color: #000000;
 
@@ -792,11 +704,7 @@ header {
                 margin-bottom: 23px;
 
                 &::placeholder {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 155%;
+                    font: normal 400 16px/155% 'Poppins';
                     text-align: justify;
                     letter-spacing: 0.03em;
                     color: #000000;
@@ -811,12 +719,9 @@ header {
                 border: 1px solid #CACACA;
                 border-radius: 5px;
                 margin-bottom: 40px;
+
                 &::placeholder {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 155%;
+                    font: normal 400 16px/155% 'Poppins';
                     text-align: justify;
                     letter-spacing: 0.03em;
                     color: #000000;
@@ -830,11 +735,7 @@ header {
                 padding: 12px 21px;
 
                 span {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 24px;
+                    font: normal 400 16px/24px 'Poppins';
                     text-align: center;
                     letter-spacing: 0.03em;
                     color: #FFFFFF;

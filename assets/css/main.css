@@ -26,11 +26,7 @@ header nav .nav-menu ul li {
 }
 header nav .nav-menu ul li a {
   text-decoration: none;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font: normal 400 14px/24px "Poppins";
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
@@ -49,11 +45,7 @@ header nav .nav-button a {
   text-decoration: none;
 }
 header nav .nav-button a span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font: normal 400 14px/24px "Poppins";
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
@@ -77,11 +69,7 @@ header nav .nav-button a span {
   align-items: center;
 }
 .first-section .first-content p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font: normal 400 14px/24px "Poppins";
   letter-spacing: 0.03em;
   color: #FFFFFF;
   text-align: center;
@@ -161,14 +149,11 @@ header nav .nav-button a span {
 .second-section .second-content .box-text .text-one img {
   width: 143px;
   height: 1px;
+  margin-right: 5px;
 }
 .second-section .second-content .box-text .text-one span {
   margin-bottom: 0;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 155%;
+  font: normal bold 16px/155% "Poppins";
   letter-spacing: 0.03em;
   color: #FF3839;
 }
@@ -176,11 +161,7 @@ header nav .nav-button a span {
   color: #696969;
 }
 .second-section .second-content .box-text p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 125.5%;
+  font: normal bold 48px/125.5% "Poppins";
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -188,11 +169,7 @@ header nav .nav-button a span {
   color: #FF3839;
 }
 .second-section .second-content .box-text p:nth-child(3), .second-section .second-content .box-text p:nth-child(4) {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 155%;
+  font: normal 400 16px/155% "Poppins";
   text-align: justify;
   letter-spacing: 0.03em;
   color: #696969;
@@ -238,11 +215,7 @@ header nav .nav-button a span {
 }
 .third-section .third-content .third-content-text span {
   margin-left: 5px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 155%;
+  font: normal bold 14px/155% "Poppins";
   text-align: justify;
   letter-spacing: 0.03em;
   color: #F8F8F8;
@@ -321,21 +294,13 @@ header nav .nav-button a span {
   z-index: 2;
 }
 .third-section .third-content .third-content-cards .card-custom p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
+  font: normal bold 16px/24px "Poppins";
   text-align: center;
   letter-spacing: 0.03em;
   color: #000000;
 }
 .third-section .third-content .third-content-cards .card-custom p:nth-child(4) {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 155%;
+  font: normal 400 11px/155% "Poppins";
   text-align: center;
   letter-spacing: 0.03em;
   color: #696969;
@@ -353,11 +318,7 @@ header nav .nav-button a span {
   gap: 25px;
 }
 .fourth-section .fourth-content .part1 span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 155%;
+  font: normal 400 16px/155% "Poppins";
   text-align: justify;
   letter-spacing: 0.03em;
   color: #696969;
@@ -367,11 +328,7 @@ header nav .nav-button a span {
   width: 450px;
 }
 .fourth-section .fourth-content .part2 p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 44px;
-  line-height: 125.5%;
+  font: normal bold 44px/125.5% "Poppins";
   text-align: center;
   letter-spacing: 0.03em;
   color: #000000;
@@ -387,11 +344,7 @@ header nav .nav-button a span {
   background: #F2F2F2;
 }
 .fourth-section .fourth-content .part3 .part3-button span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font: normal 400 16px/24px "Poppins";
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -436,11 +389,7 @@ header nav .nav-button a span {
 .fifth-section .fifth-content .part-1 .part-1-text p {
   display: inline-block;
   margin: 0 0 0 10px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 155%;
+  font: normal 600 16px/155% "Poppins";
   text-align: justify;
   letter-spacing: 0.03em;
   color: #F7F7F7;
@@ -473,11 +422,7 @@ header nav .nav-button a span {
   margin-top: 32px;
 }
 .fifth-section .fifth-content .part-2 p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 125.5%;
+  font: normal 700 48px/125.5% "Poppins";
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
@@ -514,11 +459,7 @@ header nav .nav-button a span {
 .fifth-section .fifth-content .part-3 .card-point .card-content p {
   margin: 0;
   margin-bottom: 11px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
+  font: normal bold 16px/24px "Poppins";
   text-align: center;
   letter-spacing: 0.03em;
   color: #000000;
@@ -526,11 +467,7 @@ header nav .nav-button a span {
 .fifth-section .fifth-content .part-3 .card-point .card-content p:last-child {
   margin: 0;
   margin-top: 7px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 155%;
+  font: normal 400 11px/155% "Poppins";
   text-align: center;
   letter-spacing: 0.03em;
   color: #696969;
@@ -559,11 +496,7 @@ header nav .nav-button a span {
   background: #d8d8d8;
 }
 .sixth-section .sixth-content .sixth-content-part-1 span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 155%;
+  font: normal 400 16px/155% "Poppins";
   letter-spacing: 0.03em;
   color: #696969;
 }
@@ -571,11 +504,7 @@ header nav .nav-button a span {
   margin-bottom: 45px;
 }
 .sixth-section .sixth-content .sixth-content-part-2 p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 125.5%;
+  font: normal 700 45px/125.5% "Poppins";
   text-align: center;
   letter-spacing: 0.03em;
   color: #202020;
@@ -599,11 +528,7 @@ header nav .nav-button a span {
   border-style: none;
 }
 .sixth-section .sixth-content .scrollspy-custom button p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font: normal 400 16px/24px "Poppins";
   letter-spacing: 0.03em;
   color: #333335;
   margin: 0;
@@ -633,11 +558,7 @@ header nav .nav-button a span {
 }
 .sixth-section .sixth-content .scrollspy-custom .scrollspy-text p {
   width: 940px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font: normal 400 16px/24px "Poppins";
   letter-spacing: 0.03em;
   text-align: center;
   color: #696969;
@@ -668,21 +589,13 @@ header nav .nav-button a span {
   margin-right: 12px;
 }
 .seventh-section .seventh-content .seventh-content-text .text-1 span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 155%;
+  font: normal 16px/155% "Poppins";
   text-align: justify;
   letter-spacing: 0.03em;
   color: #FF3839;
 }
 .seventh-section .seventh-content .seventh-content-text p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 125.5%;
+  font: normal 700 48px/125.5% "Poppins";
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -707,21 +620,13 @@ header nav .nav-button a span {
   margin-bottom: 23px;
 }
 .seventh-section .seventh-content .seventh-content-text input::-moz-placeholder {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 155%;
+  font: normal 400 16px/155% "Poppins";
   text-align: justify;
   letter-spacing: 0.03em;
   color: #000000;
 }
 .seventh-section .seventh-content .seventh-content-text input::placeholder {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 155%;
+  font: normal 400 16px/155% "Poppins";
   text-align: justify;
   letter-spacing: 0.03em;
   color: #000000;
@@ -736,21 +641,13 @@ header nav .nav-button a span {
   margin-bottom: 40px;
 }
 .seventh-section .seventh-content .seventh-content-text textarea::-moz-placeholder {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 155%;
+  font: normal 400 16px/155% "Poppins";
   text-align: justify;
   letter-spacing: 0.03em;
   color: #000000;
 }
 .seventh-section .seventh-content .seventh-content-text textarea::placeholder {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 155%;
+  font: normal 400 16px/155% "Poppins";
   text-align: justify;
   letter-spacing: 0.03em;
   color: #000000;
@@ -762,11 +659,7 @@ header nav .nav-button a span {
   padding: 12px 21px;
 }
 .seventh-section .seventh-content .seventh-content-text button span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font: normal 400 16px/24px "Poppins";
   text-align: center;
   letter-spacing: 0.03em;
   color: #FFFFFF;
