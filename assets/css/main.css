@@ -641,4 +641,133 @@ header nav .nav-button a span {
   letter-spacing: 0.03em;
   text-align: center;
   color: #696969;
+}
+
+.seventh-section {
+  background: #F1F1F1;
+}
+.seventh-section .seventh-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 0;
+}
+.seventh-section .seventh-content .seventh-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 30px;
+}
+.seventh-section .seventh-content .seventh-content-text .text-1 {
+  display: flex;
+  align-items: center;
+}
+.seventh-section .seventh-content .seventh-content-text .text-1 .line-4 {
+  width: 143px;
+  height: 1px;
+  background: #D8D8D8;
+  margin-right: 12px;
+}
+.seventh-section .seventh-content .seventh-content-text .text-1 span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #FF3839;
+}
+.seventh-section .seventh-content .seventh-content-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125.5%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.seventh-section .seventh-content .seventh-content-text p span {
+  color: #FF3839;
+}
+.seventh-section .seventh-content .seventh-content-text p:nth-child(3) {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  color: #696969;
+}
+.seventh-section .seventh-content .seventh-content-text input {
+  width: 533px;
+  height: 60px;
+  padding: 0 21px;
+  outline: none;
+  border: 1px solid #CACACA;
+  border-radius: 5px;
+  margin-bottom: 23px;
+}
+.seventh-section .seventh-content .seventh-content-text input::-moz-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.seventh-section .seventh-content .seventh-content-text input::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.seventh-section .seventh-content .seventh-content-text textarea {
+  width: 533px;
+  height: 149px;
+  padding: 15px 21px;
+  outline: none;
+  border: 1px solid #CACACA;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+.seventh-section .seventh-content .seventh-content-text textarea::-moz-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.seventh-section .seventh-content .seventh-content-text textarea::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.seventh-section .seventh-content .seventh-content-text button {
+  background-color: #FF3839;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 21px;
+}
+.seventh-section .seventh-content .seventh-content-text button span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
