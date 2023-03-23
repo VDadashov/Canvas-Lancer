@@ -396,7 +396,6 @@ header nav .nav-button a:hover span {
 .fourth-section .fourth-content .part3 .active-button span {
   color: #F8F8F8;
 }
-
 .fifth-section {
   padding: 110px 0;
   background: #202020;
@@ -711,11 +710,7 @@ footer .footer-content-one .share-content-one img {
   margin-bottom: 40px;
 }
 footer .footer-content-one .share-content-one p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 155%;
+  font: normal 400 14px/155% "Poppins";
   text-align: justify;
   letter-spacing: 0.03em;
   color: #fff;
@@ -776,11 +771,7 @@ footer .footer-content-one .share-content-one .social-media-link .linkedIn:hover
   color: rgb(63, 63, 177);
 }
 footer .footer-content-one .footer-content-head {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20.2817px;
-  line-height: 30px;
+  font: normal bold 20.2817px/30px "Poppins";
   color: #FFFFFF;
   margin-bottom: 33px;
   margin-top: 12px;
@@ -797,11 +788,7 @@ footer .footer-content-one ul li a {
 }
 footer .footer-content-one ul li a span {
   color: #fff;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18.0282px;
-  line-height: 225%;
+  font: normak 300 18.0282px/225% "Poppins";
   opacity: 0.75;
 }
 footer .footer-content-one .share-content-four .row .col-12 i {
@@ -810,11 +797,7 @@ footer .footer-content-one .share-content-four .row .col-12 i {
 }
 footer .footer-content-one .share-content-four .row .col-12 span {
   display: inline-block;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18.0282px;
-  line-height: 36px;
+  font: normal 300 18.0282px/36px "Poppins";
   color: #fff;
   opacity: 0.75;
 }
@@ -830,11 +813,7 @@ footer .footer-content-two {
 }
 footer .footer-content-two span {
   display: inline-block;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
+  font: normal 300 16px/24px "Poppins";
   color: #fff;
   opacity: 0.75;
 }
@@ -844,11 +823,7 @@ footer .footer-content-two .shared-link-2 {
   flex-grow: 0.12;
 }
 footer .footer-content-two .shared-link-2 a {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 36px;
+  font: normal 300 16px/36px "Poppins";
   text-decoration-line: underline;
   color: #FFFFFF;
   opacity: 0.75;

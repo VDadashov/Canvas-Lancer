@@ -60,8 +60,40 @@
   .third-section .third-content .third-content-cards {
     margin: 0;
     margin-top: 30px;
-    margin-right: 25px;
     justify-content: center;
+  }
+  .fourth-section .fourth-content .part3 .part3-button {
+    padding: 5px 20px;
+  }
+  .fourth-section .fourth-content .part3 .part3-button span {
+    font-size: 14px;
+  }
+  .fourth-section .fourth-content .part4 img {
+    width: 100%;
+  }
+  .fifth-section .fifth-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fifth-section .fifth-content .part-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .fifth-section .fifth-content .part-2 p {
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .fifth-section .fifth-content .part-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .fifth-section .fifth-content .part-3 .card-point:last-child {
+    margin-top: 90px;
   }
 }
 @media (max-width: 768px) {
@@ -102,6 +134,18 @@
   }
   .second-section .second-content .box-text p:nth-child(3), .second-section .second-content .box-text p:nth-child(4) {
     font-size: 14px;
+  }
+  .fourth-section .fourth-content .part3 .part3-button {
+    padding: 5px 17px;
+  }
+  .fourth-section .fourth-content .part3 .part3-button span {
+    font-size: 13px;
+  }
+}
+@media (max-width: 600px) {
+  .third-section .third-content .third-content-cards .card-custom {
+    margin-top: 10px !important;
+    margin-bottom: 35px !important;
   }
 }
 @media (max-width: 576px) {
@@ -244,7 +288,20 @@
     margin-top: 10px !important;
     margin-bottom: 35px !important;
   }
-  .third-section .third-content .third-content-cards .card-custom:last-child {
-    margin-bottom: 0 !important;
+  .fourth-section .fourth-content .part1 img {
+    width: 90px;
+  }
+  .fourth-section .fourth-content .part1 span {
+    font-size: 14px;
+  }
+  .fourth-section .fourth-content .part2 {
+    width: auto;
+  }
+  .fourth-section .fourth-content .part2 p {
+    font-size: 32px;
+  }
+  .fourth-section .fourth-content .part3 {
+    display: grid;
+    gap: 10px;
   }
 }/*# sourceMappingURL=main_res.css.map */
