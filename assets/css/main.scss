@@ -816,9 +816,11 @@ footer {
                     }
 
                     &:hover {
+                        transform: scale(1.18);
                         transition: all 0.5s;
-
+                        filter: blur(2x);
                         i {
+                            transform: scale(1.18);
                             transition: all 0.5s;
                         }
                     }
@@ -826,17 +828,17 @@ footer {
 
 
                 .facebook:hover {
-                    border: 2px solid #4f65df;
                     background-color: #F1F1F1;
-
+                    box-shadow: 0 0 15px #4f65df;
+                    
                     i {
                         color: #4f65df;
                     }
                 }
 
                 .instagram:hover {
-                    border: 2px solid #df2c2c;
                     background-color: #F1F1F1;
+                    box-shadow: 0 0 15px #df2c2c;
 
                     i {
                         color: #df2c2c;
@@ -844,8 +846,8 @@ footer {
                 }
 
                 .twitter:hover {
-                    border: 2px solid rgb(58, 58, 208);
                     background-color: #F1F1F1;
+                    box-shadow: 0 0 15px rgb(58, 58, 208);
 
                     i {
                         color: rgb(58, 58, 208);
@@ -853,8 +855,8 @@ footer {
                 }
 
                 .linkedIn:hover {
-                    border: 2px solid rgb(63, 63, 177);
                     background-color: #F1F1F1;
+                    box-shadow: 0 0 15px rgb(63, 63, 177);
 
                     i {
                         color: rgb(63, 63, 177);

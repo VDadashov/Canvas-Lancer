@@ -58,7 +58,7 @@
   .third-section .third-content .third-content-text {
     margin: 0;
     margin-bottom: 30px;
-    margin-right: 25px;
+    margin-right: 24px;
   }
   .third-section .third-content .third-content-cards {
     margin: 0;
@@ -130,6 +130,35 @@
   .sixth-section .sixth-content .scrollspy-custom .scrollspy-text p {
     width: auto;
     font-size: 14px;
+  }
+  .seventh-section {
+    display: grid;
+    place-content: center;
+  }
+  .seventh-section .seventh-content {
+    width: 600px;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .seventh-section .seventh-content .seventh-content-text p {
+    width: 520px;
+  }
+  .seventh-section .seventh-content .seventh-content-text p:nth-child(3) {
+    width: 533px;
+  }
+  .seventh-section .seventh-content .seventh-content-text form {
+    display: flex;
+    flex-direction: column;
+  }
+  .seventh-section .seventh-content .seventh-content-text form .submit-message {
+    width: 185px;
+    height: 48px;
+  }
+  .seventh-section .seventh-content .seventh-content-img img {
+    width: 560px;
+    height: 560px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media (max-width: 768px) {
@@ -204,6 +233,52 @@
   .sixth-section .sixth-content .scrollspy-custom .scrollspy-text p {
     width: auto;
     font-size: 12px;
+  }
+  .seventh-section {
+    display: grid;
+    place-content: center;
+  }
+  .seventh-section .seventh-content {
+    width: 530px;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .seventh-section .seventh-content .seventh-content-text {
+    margin: 0;
+  }
+  .seventh-section .seventh-content .seventh-content-text .text-1 .line-4 {
+    width: 124px;
+  }
+  .seventh-section .seventh-content .seventh-content-text .text-1 span {
+    font-size: 14px;
+  }
+  .seventh-section .seventh-content .seventh-content-text p {
+    font-size: 42px;
+    width: 480px;
+  }
+  .seventh-section .seventh-content .seventh-content-text p:nth-child(3) {
+    font-size: 14px;
+    width: 470px;
+  }
+  .seventh-section .seventh-content .seventh-content-text form {
+    display: flex;
+    flex-direction: column;
+  }
+  .seventh-section .seventh-content .seventh-content-text form input {
+    width: 470px;
+  }
+  .seventh-section .seventh-content .seventh-content-text form textarea {
+    width: 470px;
+  }
+  .seventh-section .seventh-content .seventh-content-text form .submit-message {
+    width: 185px;
+    height: 48px;
+  }
+  .seventh-section .seventh-content .seventh-content-img img {
+    width: 530px;
+    height: 475px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media (max-width: 600px) {
@@ -357,6 +432,9 @@
   .fifth-section .fifth-content .part-2 p {
     font-size: 35px;
   }
+  .sixth-section {
+    padding: 70px 0 60px 0;
+  }
   .sixth-section .sixth-content .sixth-content-part-1 .line-3 {
     width: 95px;
   }
@@ -386,5 +464,53 @@
   .sixth-section .sixth-content .scrollspy-custom .scrollspy-text p {
     width: auto;
     font-size: 12px;
+  }
+  .seventh-section {
+    display: grid;
+    place-content: center;
+  }
+  .seventh-section .seventh-content {
+    width: 350px;
+    flex-direction: column;
+    margin-left: 0;
+    gap: 40px;
+  }
+  .seventh-section .seventh-content .seventh-content-text {
+    margin: 0;
+  }
+  .seventh-section .seventh-content .seventh-content-text .text-1 .line-4 {
+    width: 124px;
+  }
+  .seventh-section .seventh-content .seventh-content-text .text-1 span {
+    font-size: 14px;
+  }
+  .seventh-section .seventh-content .seventh-content-text p {
+    font-size: 32px;
+    width: 350px;
+    margin-top: 8px;
+  }
+  .seventh-section .seventh-content .seventh-content-text p:nth-child(3) {
+    font-size: 12px;
+    width: 350px;
+  }
+  .seventh-section .seventh-content .seventh-content-text form {
+    display: flex;
+    flex-direction: column;
+  }
+  .seventh-section .seventh-content .seventh-content-text form input {
+    width: 350px;
+  }
+  .seventh-section .seventh-content .seventh-content-text form textarea {
+    width: 350px;
+  }
+  .seventh-section .seventh-content .seventh-content-text form .submit-message {
+    width: 185px;
+    height: 48px;
+  }
+  .seventh-section .seventh-content .seventh-content-img img {
+    width: 340px;
+    height: 315px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }/*# sourceMappingURL=main_res.css.map */
