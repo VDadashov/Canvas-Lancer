@@ -551,6 +551,7 @@
   footer .footer-content-two {
     flex-direction: column;
     gap: 15px;
+    align-items: center;
   }
   footer .footer-content-two span {
     font-size: 14px;
