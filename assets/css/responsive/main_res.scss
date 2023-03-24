@@ -126,9 +126,24 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
+                gap: 80px;
                 .card-point{
-                    &:last-child{
-                        margin-top: 90px;
+                    width: 320px;
+                    height: 205px;
+
+                    .card-logo{
+                        width: 86px;
+                        height: 86px;
+                        left: 163px;
+                        top: -45px;
+                    }
+
+                    .card-content{
+                        .card-stars{
+                            img{
+                                width: 18px;
+                            }
+                        }
                     }
                 }
             }
@@ -217,6 +232,16 @@
             }
         }
     }
+
+    .fifth-section{
+        .fifth-content{
+            .part-2{
+                p{
+                    font-size: 44px;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 600px) {
@@ -240,22 +265,11 @@
     @mixin button {
         width: 125px !important;
         height: 35px !important;
-        text-decoration: none;
-        background: #FF3839;
-        border-radius: 5px;
-        display: grid;
-        place-items: center;
         margin-top: 20px !important;
 
         span {
             color: #FFFFFF !important;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
             font-size: 12px !important;
-            line-height: 24px;
-            text-align: center;
-            letter-spacing: 0.03em;
         }
 
     }
@@ -439,6 +453,19 @@
             }
 
 
+        }
+    }
+
+    .fifth-section{
+        .fifth-content{
+            .part-2{
+                width: auto;
+                display: grid;
+                place-items: center;
+                p{
+                    font-size: 35px;
+                }
+            }
         }
     }
 }
