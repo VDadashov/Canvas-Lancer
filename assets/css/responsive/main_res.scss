@@ -23,6 +23,10 @@
         }
     }
 
+    .first-section{
+        height: 700px;
+    }
+
     .second-section {
         height: auto;
 
@@ -149,9 +153,46 @@
             }
         }
     }
+
+    .sixth-section{
+        .sixth-content{
+            .sixth-content-part-1{
+                .line-3{
+                    width: 105px;
+                }
+
+                span{
+                    font-size: 14px;
+                }
+            }
+
+            .sixth-content-part-2{
+                p{
+                    font-size: 42px;
+                }
+            }
+
+            .scrollspy-custom{
+                button{
+                    width: 690px;
+
+                    p{
+                        font-size: 14px;
+                    }
+                }
+
+                .scrollspy-text{
+                    width: 690px;
+
+                    p{
+                        width: auto;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
 }
-
-
 
 @media (max-width:768px) {
     .container {
@@ -159,6 +200,8 @@
     }
 
     .first-section {
+        height: 580px;
+
         .first-content {
             width: 565px;
             height: auto;
@@ -238,6 +281,45 @@
             .part-2{
                 p{
                     font-size: 44px;
+                }
+            }
+        }
+    }
+
+    .sixth-section{
+        .sixth-content{
+            .sixth-content-part-1{
+                .line-3{
+                    width: 105px;
+                }
+
+                span{
+                    font-size: 14px;
+                }
+            }
+
+            .sixth-content-part-2{
+                p{
+                    font-size: 40px;
+                }
+            }
+
+            .scrollspy-custom{
+                button{
+                    width: 500px;
+
+                    p{
+                        font-size: 13px;
+                    }
+                }
+
+                .scrollspy-text{
+                    width: 500px;
+
+                    p{
+                        width: auto;
+                        font-size: 12px;
+                    }
                 }
             }
         }
@@ -457,6 +539,7 @@
     }
 
     .fifth-section{
+        padding: 80px 0;
         .fifth-content{
             .part-2{
                 width: auto;
@@ -464,6 +547,49 @@
                 place-items: center;
                 p{
                     font-size: 35px;
+                }
+            }
+        }
+    }
+
+    .sixth-section{
+        .sixth-content{
+            .sixth-content-part-1{
+                .line-3{
+                    width: 95px;
+                }
+
+                span{
+                    font-size: 12px;
+                }
+            }
+
+            .sixth-content-part-2{
+                margin-bottom: 30px;
+                p{
+                    width: auto;
+                    font-size: 36px;
+                }
+            }
+
+            .scrollspy-custom{
+                button{
+                    width: 360px;
+                    height: 84px;
+                    flex-direction: column;
+                    padding: 10px 10px 5px 10px;
+                    p{
+                        font-size: 13px;
+                    }
+                }
+
+                .scrollspy-text{
+                    width: 360px;
+                    height: 144px;
+                    p{
+                        width: auto;
+                        font-size: 12px;
+                    }
                 }
             }
         }
