@@ -167,8 +167,8 @@
   footer .footer-content-one .share-content-one {
     width: 300px;
   }
-  footer .footer-content-one ul li {
-    margin-bottom: 18px;
+  footer .footer-content-one ul li a span {
+    font-size: 16px;
   }
   footer .footer-content-one .share-content-three {
     order: 3;
@@ -542,6 +542,9 @@
   footer .footer-content-one .share-content-one {
     width: 300px;
     margin-right: 25px;
+  }
+  footer .footer-content-one ul li a span {
+    font-size: 14px;
   }
   footer .footer-content-one .share-content-four {
     width: 325px;

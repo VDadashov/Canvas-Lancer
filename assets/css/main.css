@@ -396,6 +396,7 @@ header nav .nav-button a:hover span {
 .fourth-section .fourth-content .part3 .active-button span {
   color: #F8F8F8;
 }
+
 .fifth-section {
   padding: 110px 0;
   background: #202020;
@@ -791,7 +792,7 @@ footer .footer-content-one ul li a {
 }
 footer .footer-content-one ul li a span {
   color: #fff;
-  font: normak 300 18.0282px/225% "Poppins";
+  font: normal 300 18.0282px/225% "Poppins";
   opacity: 0.75;
 }
 footer .footer-content-one .share-content-four .row .col-12 i {
