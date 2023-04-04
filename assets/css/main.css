@@ -30,6 +30,14 @@ header nav .nav-menu ul li a {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
+header nav .nav-menu .bars-custom.active i {
+  display: none;
+}
+header nav .nav-menu .bars-custom.active i:nth-child(2) {
+  font-size: 1.35em;
+  display: block !important;
+  color: #fff;
+}
 header nav .nav-button {
   display: flex;
   justify-content: flex-end;
@@ -58,6 +66,45 @@ header nav .nav-button a:hover {
 header nav .nav-button a:hover span {
   color: #FF3839;
   transition: all 0.5s;
+}
+header .mobile {
+  position: absolute;
+  left: -41%;
+  width: 55%;
+  height: 300px;
+  display: grid;
+  place-content: center;
+  background-color: #f3eeee;
+  border: 1px solid black;
+  box-shadow: 2px 0 5px 2px gray;
+  animation-name: mobile-side-bar;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  display: none;
+}
+@keyframes mobile-side-bar {
+  from {
+    left: -41%;
+  }
+  to {
+    left: 0;
+  }
+}
+header .mobile ul {
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+header .mobile ul li {
+  margin-bottom: 10px;
+}
+header .mobile ul li a {
+  text-decoration: none;
+  font: normal 400 16px/24px "Poppins";
+  letter-spacing: 0.03em;
+  color: #000;
+}
+header .mobile.active {
+  display: grid;
 }
 
 .first-section {
